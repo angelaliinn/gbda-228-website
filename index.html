@@ -43,20 +43,23 @@ h3 {
     margin-right: 120px;
   }  
   
-  h4 {
+ h4 {
     font-family: "Poppins", sans-serif;
-    text-align: right;
+    text-align: center;
     color: #FF8FAB;
     font-weight: 400;
     font-size: 19px;
-    margin-right: 39px;
-  }  
+    margin: 0; /* Remove default margins */
+    padding: 10px 0; /* Add padding for spacing */
+    border-bottom: 2px solid black; /* Adds the 2px black line */
+    width: 100%; /* Ensures it takes up the full width */
+  }
   
    .nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
+        padding: 20px;
     }
 
 </style>
@@ -67,8 +70,11 @@ h3 {
 <!-- headers -->
   
   <div class="nav">
+    <h4> &lt;3 </h4>
     <h4>About</h4>
     <h4>Style Essentials</h4>
+    <h4>Gallery</h4>
+    <h4>Contact</h4>
 </div>
   
   <h1> The <em style="color: #FF8FAB;">Coquette</em> Style Guide</h1>
