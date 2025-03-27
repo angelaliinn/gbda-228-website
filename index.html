@@ -10,9 +10,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 <style>
-
 body {
-background-color: #FAFAFA;
+    background-color: #FAFAFA;
 }
 
 h1 {
@@ -20,9 +19,8 @@ h1 {
   text-align: center;
   font-size: 96px;
   font-weight: 500;
-}  
-  
-  
+}
+
 h2 { 
     font-family: "Playfair Display", serif;
     text-align: left;
@@ -31,8 +29,8 @@ h2 {
     font-weight: 500;
     font-style: italic;
     margin-left: 120px;
-  }  
-  
+}
+
 h3 {
     font-family: "Playfair Display", serif;
     text-align: right;
@@ -41,41 +39,55 @@ h3 {
     font-weight: 500;
     font-style: italic;
     margin-right: 120px;
-  }  
-  
- h4 {
+}
+
+h4 {
     font-family: "Poppins", sans-serif;
-    text-align: center;
     color: #FF8FAB;
     font-weight: 400;
     font-size: 19px;
-    margin: 0; /* Remove default margins */
-    padding: 10px 0; /* Add padding for spacing */
-    border-bottom: 2px solid black; /* Adds the 2px black line */
-    width: 100%; /* Ensures it takes up the full width */
-  }
-  
-   .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-    }
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav .left {
+    text-align: left;
+}
+
+.nav .right {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adds space between the items on the right */
+}
 </style>
+
 </head>
   
 <body>
   
 <!-- headers -->
   
-  <div class="nav">
-    <h4> &lt;3 </h4>
-    <h4>About</h4>
-    <h4>Style Essentials</h4>
-    <h4>Gallery</h4>
-    <h4>Contact</h4>
-</div>
+  <nav class="nav">
+    <div class="left">
+      <h4> &lt;3 </h4>
+    </div>
+    <div class="right">
+      <h4>About</h4>
+      <h4>Style Essentials</h4>
+      <h4>Gallery</h4>
+      <h4>Contact</h4>
+    </div>
+  </nav>
   
   <h1> The <em style="color: #FF8FAB;">Coquette</em> Style Guide</h1>
   
@@ -85,9 +97,6 @@ h3 {
   
   <h2>Gallery</h2>
   
-
-  
 </body>
-  
   
 </html>
