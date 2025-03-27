@@ -100,7 +100,7 @@ h4 {
     
 }
 
-#home1 img {
+#home img {
     width: 453.26px;
     height: 352px;
     max-width: 100%;
@@ -110,6 +110,7 @@ h4 {
     margin-left: 170px;
 }
   
+  
 #aboutblock {
     align-items: left;
     margin-left: 108px;
@@ -118,15 +119,30 @@ h4 {
     padding: 15px;
     
 }
+.about-container {
+    display: flex; 
+    gap: 70px; 
+    float: right;
+    margin-right: 101px;
+   
+}
+
+#about1 img, #about2 img {
+    max-width: 100%; /* Ensures the images are responsive */
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
 #about1 img {
     width: 297.43px;
-    height: 399;
-    float: right;
-    max-width: 100%;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-right: 479px;
+    height: 399px;
+    margin-top: -150px;
+}
+
+#about2 img {
+    width: 306.85px;
+    height: 409px;
+    margin-top: -100px;
 }
 
   
@@ -154,7 +170,7 @@ h4 {
   
   <h1> The <em style="color: #FF8FAB;">Coquette</em> Style Guide</h1>
   
-  <div id="home1">
+  <div id="home">
     <img src="image 1.png" alt="girl in pink dress from different angles"> 
     </div>
   
@@ -168,10 +184,14 @@ h4 {
   
   <h2>About</h2>
   
-   <div id="about1">
-    
-    <img src="image 2.png" alt="girl in light pink dress with bow"> 
-    </div>
+  <div class="about-container">
+  <div id="about1">
+     <img src="image 2.png" alt="girl in light pink dress with bow"> 
+  </div>
+  <div id="about2">
+     <img src="blue.png" alt="girl in light blue dress"> 
+  </div>
+</div>
    
   <div id="aboutblock">
     <p>
