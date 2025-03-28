@@ -118,6 +118,8 @@ nav a:hover {
     position: absolute;
     z-index: -1;
     margin-top: 85px;
+    border-top: 2px solid #FF8FAB;
+    border-bottom: 2px solid #FF8FAB;
 }
   
   
@@ -220,7 +222,40 @@ nav a:hover {
   text-align: center; 
   }
   
+#gallery {
+    margin-top: 100px;
+}
+
+.gallery-rectangle {
+    width: 100%;   
+    height: 1296px;  
+    background-color: #FFEDF0; 
+    position: absolute;
+    z-index: -1;
+    margin-top: -55px;
+    border-top: 2px solid #FF8FAB;
+    border-bottom: 2px solid black;
+}
   
+  .gallery-photo {
+    margin-top: 20px;
+}
+  
+.gallery-images-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; /* Ad5ust the gap between the images */
+    margin-bottom: 60px; /* Space between the two rows */
+    margin-right: 104px;
+    margin-left: 146px;
+} 
+  
+.gallery-image {
+    width: 339px;
+    height: 446px;
+    border-radius: 10px; /* Rounded corners */
+    border: 1px solid black; 
+}
   
 </style>
 
@@ -329,9 +364,31 @@ nav a:hover {
 </section>
   
 <!-- gallery section -->
+
+<section id="gallery">
+
+ <div class="gallery-rectangle"></div>
   
   <h2>Gallery</h2>
+
+<div class=".gallery-photo"></div>
+  <div class="gallery-images--row">
+    
+    <img class="gallery-image" src="one.png" alt="girl in white dress with black bows">
+    <img class="gallery-image" src="one.png" alt="girl in white dress with black bows">
+    <img class="gallery-image" src="one.png" alt="girl in white dress with black bows">
+    
+</div>
   
+  <div class="gallery-images--row">
+    <img class="gallery-image" src="one.png" alt="girl in white dress with black bows">
+    <img class="gallery-image" src="one.png" alt="girl in white dress with black bows">
+    <img class="gallery-image" src="one.png" alt="girl in white dress with black bows">
+    
+  </div>
+  
+  
+</section>
   
   
   
