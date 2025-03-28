@@ -13,7 +13,11 @@
 body {
     background-color: #FAFAFA;
 }
-
+  
+html {
+    scroll-behavior: smooth;
+}
+  
 h1 {
   font-family: "Playfair Display", serif;
   text-align: center;
@@ -83,6 +87,18 @@ h4 {
     display: flex;
     gap: 30px;
     margin-right: 39px;
+}
+  
+nav .right a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #FF8FAB; 
+}
+
+nav .right a:hover {
+    color: #000000; 
 }
   
  .pink-rectangle {
@@ -168,10 +184,10 @@ h4 {
     </div>
     
     <div class="right">
-      <h4>About</h4>
-      <h4>Style Essentials</h4>
-      <h4>Gallery</h4>
-      <h4>Contact</h4>
+     <h4><a href="#home">Home</a></h4>
+     <h4><a href="#about">About</a></h4>
+     <h4>Style Essentials</h4>
+     <h4>Gallery</h4>
     </div>
   </nav>
   
