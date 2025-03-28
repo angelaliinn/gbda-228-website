@@ -13,11 +13,7 @@
 body {
     background-color: #FAFAFA;
 }
-  
-html {
-    scroll-behavior: smooth;
-}
-  
+
 h1 {
   font-family: "Playfair Display", serif;
   text-align: center;
@@ -25,12 +21,8 @@ h1 {
   font-weight: 500;
   margin-top: 150px;
 }
-  
-#about { /* */
-  
-}
 
-#about h2 {
+h2 { 
     font-family: "Playfair Display", serif;
     text-align: left;
     color: black;
@@ -38,8 +30,8 @@ h1 {
     font-weight: 500;
     font-style: italic;
     margin-left: 120px;
-    margin-top: 0;
     padding: 20px;
+    margin-top: 140px;
 }
 
 h3 {
@@ -84,7 +76,21 @@ h4 {
     position: fixed;
     z-index: 1000;
     background-color: #FAFAFA;
-    top: 0px;
+    top: 0;
+    
+}
+  
+nav .right a {
+    text-decoration: none; 
+    color: #FF8FAB; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+/* Change color on hover */
+nav .right a:hover {
+    color: #000000; 
 }
 
 .nav .left {
@@ -95,31 +101,7 @@ h4 {
 .nav .right {
     display: flex;
     gap: 30px;
-    margin-right: 39px;
-}
-  
-nav .right a {
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 19px;
-    color: #FF8FAB; 
-}
-
-nav .right a:hover {
-    color: #000000; 
-}
-  
-  nav .left a {
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 19px;
-    color: #FF8FAB; 
-}
-
-nav .left a:hover {
-    color: #000000; 
+    margin-right: 80px;
 }
   
  .pink-rectangle {
@@ -130,7 +112,6 @@ nav .left a:hover {
     z-index: -1;
     margin-top: 85px;
 }
-  
   
   #homeblock {
     margin-left: 620px;
@@ -171,7 +152,7 @@ nav .left a:hover {
 }
 
 #about1 img, #about2 img {
-    max-width: 100%;
+    max-width: 100%; /* Ensures the images are responsive */
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -201,21 +182,20 @@ nav .left a:hover {
   <nav class="nav">
     
     <div class="left">
-      <h4><a href="#left">&lt;3</a></h4>
+      <h4> &lt;3 </h4>
     </div>
     
     <div class="right">
-     <h4><a href="#pink-rectangle">About</a></h4>
-     <h4>Style Essentials</h4>
-     <h4>Gallery</h4>
-     <h4>Contact</h4>
+      <h4><a href="#about">About</a></h4>
+      <h4>Style Essentials</h4>
+      <h4>Gallery</h4>
+      <h4>Contact</h4>
     </div>
   </nav>
   
+  <h1> The <em style="color: #FF8FAB;">Coquette</em> Style Guide</h1>
   
   <div id="home">
-     <h1> The <em style="color: #FF8FAB;">Coquette</em> Style Guide</h1>
-    
     <img src="image 1.png" alt="girl in pink dress from different angles"> 
     </div>
   
@@ -225,30 +205,24 @@ nav .left a:hover {
     </p>
   </div>
   
-<div id="pink-rectangle" class="pink-rectangle"></div>
+  <div class="pink-rectangle"></div>
   
-<section id="about">
   <h2>About</h2>
   
   <div class="about-container">
-    <div id="about1">
-      <img src="image 2.png" alt="girl in light pink dress with bow"> 
-    </div>
-    <div id="about2">
-      <img src="blue.png" alt="girl in light blue dress"> 
-    </div>
+  <div id="about1">
+     <img src="image 2.png" alt="girl in light pink dress with bow"> 
   </div>
-  
+  <div id="about2">
+     <img src="blue.png" alt="girl in light blue dress"> 
+  </div>
+</div>
+   
   <div id="aboutblock">
     <p>
-      The coquette fashion aesthetic is all about soft, romantic, and feminine details with a hint of vintage glamour. It blends elements of old-money elegance, ballet core, and soft grunge, creating a look that feels both delicate and alluring.
-    </p>
-    <p>
-      Key colors in the coquette fashion aesthetic include soft pinks, pastel hues, whites, creams, and light lavender.
-    </p>
-  </div>
-</section>
-
+    The coquette fashion aesthetic is all about soft, romantic, and feminine details with a hint of vintage glamour. It blends elements of old-money elegance, ballet core, and soft grunge, creating a look that feels both delicate and alluring. </p>
+    <p> Key colors in the coquette fashion aesthetic include soft pinks, pastel hues, whites, creams, and light lavender. </p>
+     </div>
   
 
   
