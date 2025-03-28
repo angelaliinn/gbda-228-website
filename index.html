@@ -14,12 +14,13 @@ body {
     background-color: #FAFAFA;
 }
 
-h1 {
-  font-family: "Playfair Display", serif;
-  text-align: center;
-  font-size: 96px;
-  font-weight: 500;
-  margin-top: 150px;
+
+#home h1 {
+  font-family: "Playfair Display", serif; /* Font family */
+  text-align: center; /* Centers the text */
+  font-size: 96px; /* Large font size */
+  font-weight: 500; /* Medium weight */
+  margin-top: 150px; /* Adds space above the title */
 }
 
 h2 { 
@@ -80,16 +81,15 @@ h4 {
     
 }
   
-nav .right a {
+nav a {
     text-decoration: none; 
     color: #FF8FAB; 
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; 
     font-weight: 400;
-    font-size: 19px;
+    font-size: 19px; 
 }
 
-/* Change color on hover */
-nav .right a:hover {
+nav a:hover {
     color: #000000; 
 }
 
@@ -101,7 +101,7 @@ nav .right a:hover {
 .nav .right {
     display: flex;
     gap: 30px;
-    margin-right: 80px;
+    margin-right: 100px;
 }
   
  .pink-rectangle {
@@ -169,7 +169,6 @@ nav .right a:hover {
     height: 409px;
     margin-top: -90px;
 }
-
   
 </style>
 
@@ -182,7 +181,7 @@ nav .right a:hover {
   <nav class="nav">
     
     <div class="left">
-      <h4> &lt;3 </h4>
+      <h4> <a href="#about">&lt;3</a></h4>
     </div>
     
     <div class="right">
@@ -193,9 +192,9 @@ nav .right a:hover {
     </div>
   </nav>
   
-  <h1> The <em style="color: #FF8FAB;">Coquette</em> Style Guide</h1>
   
   <div id="home">
+    <h1>The <em style="color: #FF8FAB;">Coquette</em> Style Guide</h1>
     <img src="image 1.png" alt="girl in pink dress from different angles"> 
     </div>
   
