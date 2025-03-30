@@ -30,15 +30,16 @@ html {
    margin-left: 620px;
    margin-right: 173px;
    min-width: 444px;
+   max-width: 444px;
    padding: 50px;
    margin-top: -69px;
     
 }
 
 #home img {
-    width: 453.26px;
+    max-width: 453.26px;
+    width: 100%;
     height: 352px;
-    max-width: 100%;
     border: 1px solid black;
     border-radius: 10px;
     float: left;
@@ -174,6 +175,7 @@ nav a:hover {
 #style-essentialsblock {
     text-align: justify;
     min-width: 800px;
+    max-width: 800px;  
     margin-right: 104px;
     margin-left: 248px;
     margin-top: -60px;
@@ -202,21 +204,22 @@ nav a:hover {
   
 #table {
     margin-top: 20px;
-    width: 1074px;
+    width: 100%;  /* Make the table take up 100% of the available space */
+    max-width: 1074px;  /* Prevent it from getting too wide on larger screens */
     height: 118.5px;
     background-color: #FFEDF0;
-    border: 1px solid #FF8FAB; 
+    border: 1px solid #FF8FAB;
     border-collapse: collapse;
-    margin-left: 110px; 
-    margin-right: 117px;
-  }
+    margin-left: auto;  /* Automatically center the table */
+    margin-right: auto;  /* Automatically center the table */
+}
 
 #table td {
-   padding: 10px; 
-   font-family: "Poppins", sans-serif; 
-   border: 1px solid #FF8FAB; 
-   text-align: center; 
-  }
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #FF8FAB;
+    text-align: center;
+}
   
 #gallery {
     margin-top: 100px;
@@ -257,12 +260,12 @@ nav a:hover {
   
 .contact {
     display: flex;
-    justify-content: center;  /* Centers content horizontally */
-    align-items: center;      /* Centers content vertically */
+    justify-content: center; 
+    align-items: center;    
     text-align: center;
     margin-top: 100px;
     margin-bottom: 30px;
-    gap: 301px;  /* Adjust gap between items as needed */
+    gap: 301px;  
     width: 100%;
 }
   
